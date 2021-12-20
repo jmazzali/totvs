@@ -24,7 +24,7 @@ Desafios
 
 ---
 
-![git tree](./gitfolder-tree.png)
+![git tree](./gitfolder-tree-update.png)
 
 ---
 
