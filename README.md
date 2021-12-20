@@ -18,9 +18,9 @@ Material de apoio
 
 Desafios
 
-- [] Criação de página de portfólio
+- [ ] Criação de página de portfólio
 
-- [] Desafios Fluig
+- [ ] Desafios Fluig
 
 ---
 
