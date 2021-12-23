@@ -1,13 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 body
 {
-    background-color:white;
-    font-family: Arial;
-    color:indigo;
+    margin:0;
+    padding:0;
+    background-color: rgba(143, 143, 143, 0.151);
 }
 
-div
+#div-gradient
 {
-    min-height: 20px;
-    height: 2%;
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d0d3d4, #56585a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d0d3d4, #56585a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#div-gradient nav,a{
+    display: flex;
+    justify-content: center;
+    gap: 0px 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+}
+
+main
+{
+    border-top: 1px solid pink;
+    padding-top: 15px;
+    padding-left:5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 15%;
+    justify-content: center;
+    font-family: 'Sarala', sans-serif;
+}
+
+#profile-text{
+    display:flex;
+    flex-direction:column;
+    text-align: justify;
+}
+
+#profile-text button{
+    width: 40%;
+    height: 35px;
+    font-weight: 600;
+    background-color: rgb(167, 167, 167);
+    color: white;
+    border-radius: 5%;
+    border:none;
+    box-shadow: 2px 2px 2px rgb(5, 5, 5);
+}
+
+#profile-name{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#profile-description{
+    font-size: 19px;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#profile img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+
+
+
+footer
+{
+    height: 60px;
+    background-color: rgb(112, 112, 112);
 }
