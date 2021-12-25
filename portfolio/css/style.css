@@ -52,17 +52,13 @@ nav a{
 main
 {
     border-top: 2px solid rgb(3, 0, 44);
-    padding-top: 15px;
-    margin-bottom: 20px;
+    padding: 40px 5% 40px 5%;
 }
 
 #profile{
      /*em mobile: flex-direction: colum-reverse*/
     color: rgb(3, 0, 44);
     gap: 0 15%;
-    padding-left:5%;
-    padding-right: 5%;
-    padding-bottom: 25px;
 }
 
 #profile-text{
@@ -126,8 +122,8 @@ main
 }
 
 .projeto img{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 160px;
 }
 
 .flex-column-center.texto-descricao-projeto{
