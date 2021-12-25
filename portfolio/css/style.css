@@ -56,17 +56,15 @@ main
 }
 
 #profile{
-     /*em mobile: flex-direction: colum-reverse*/
     color: rgb(3, 0, 44);
     gap: 0 15%;
 }
 
 #profile-text{
+    width: 45%;
     display:flex;
     text-align: justify;
     flex-direction:column;
-    /*em mobile: text-align: center*/
-    /*em mobile: adicionar padding-top (afastar texto da img)*/
 }
 
 #profile-text button{
@@ -174,4 +172,26 @@ footer i{
 footer p{
     padding: 10px;
     font-size: 12px;
+}
+
+@media (max-width:1200px){
+    .flex-row-center.projeto{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px){
+    .flex-column-center.texto-descricao-projeto{
+        width: 80%;
+    }
+    #profile-text{
+        align-items: center;
+        text-align: center;
+        padding-top: 15px;
+        width: 65%;
+    }
+
+    #profile{
+         flex-direction: column-reverse;
+   }
 }
