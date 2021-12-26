@@ -2,6 +2,7 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"); /*Ícones*/
 
+/*GERAL*/
 *{
     margin:0;
     padding:0;
@@ -28,6 +29,9 @@ body
     background-color: rgba(219, 219, 219, 0.151);
 }
 
+/*FIM GERAL*/
+
+/*MENU NAVEGAÇÃO*/
 nav
 {
     display:flex;
@@ -48,7 +52,9 @@ nav a{
     font-weight: 600;
     text-decoration: none;
 }
+/*FIM MENU NAVEGAÇÃO*/
 
+/*SEÇÃO DE APRESENTAÇÃO*/
 main
 {
     border-top: 2px solid rgb(3, 0, 44);
@@ -95,12 +101,69 @@ main
     width:120px;
     border-radius: 50%;
 }
+/*FIM SEÇÃO DE APRESENTAÇÃO*/
 
+/*SEÇÃO NÍVEIS DE LINGUAGEM*/
 #level{
-    height: 350px;
     background-color: rgba(223, 223, 223, 0.493);
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
+#level p{
+    flex-direction: column;
+}
+
+.flex-column-center.coluna-progresso{
+    width: 40%;
+    align-items: flex-start;
+}
+
+#html-linha p, #css-linha p, #js-linha p, #git-linha p{
+    width: 120px;
+    padding-right: 5%;
+}
+
+#html-linha, #css-linha, #js-linha, #git-linha{
+    width: 100%;
+    padding: 10px 0 10px;
+    justify-content:space-around;
+}
+
+#html-barra, #css-barra, #js-barra, #git-barra{
+    width: 100%;
+    height: 15px;
+    margin-right: 5%;
+    border-radius: 5px;
+    background-color: rgba(170, 170, 170, 0.438);
+}
+
+.progresso-iniciante{
+    width: 30%;
+    height: 15px;
+    background-color: rgba(170, 170, 170, 0.678);
+}
+
+.progresso-basico{
+    width: 50%;
+    height: 15px;
+    background-color: rgba(170, 170, 170, 0.678);
+}
+
+.progresso-intermediario{
+    width: 70%;
+    height: 15px;
+    background-color: rgba(170, 170, 170, 0.678);
+}
+
+.progresso-avancado{
+    width: 90%;
+    height: 15px;
+    background-color: rgba(170, 170, 170, 0.678);
+}
+/*FIM NÍVEIS DE LINGUAGEM*/
+
+/*SEÇÃO DE PROJETOS*/
 #principais-projetos{
     padding-top: 20px;
     margin-bottom: 15px;
@@ -156,7 +219,9 @@ main
 .categoria-projeto{
     color: rgba(136, 136, 136, 0.575);
 }
+/*FIM PROJETOS*/
 
+/*RODAPÉ*/
 footer{
     padding-top: 10px;
     background-color: rgba(223, 223, 223, 0.493);
@@ -173,13 +238,24 @@ footer p{
     padding: 10px;
     font-size: 12px;
 }
+/*FIM RODAPÉ*/
 
+/*RESPONSIVIDADE*/
 @media (max-width:1200px){
     .flex-row-center.projeto{
         flex-direction: column;
     }
     .projeto img {
         margin-bottom: 15px;
+    }
+}
+
+@media (max-width:920px){
+    #level{
+        flex-direction: column;
+    }
+    .flex-column-center.coluna-progresso{
+        width: 80%;
     }
 }
 
@@ -191,18 +267,16 @@ footer p{
         align-items: center;
         text-align: center;
         padding-top: 15px;
-        width: 65%;
+        width: 85%;
     }
-
     #profile{
          flex-direction: column-reverse;
    }
-
    footer i{
     font-size: 20px;
     }
-
     footer p{
     font-size: 10px;
     }
 }
+/*FIM RESPONSIVIDADE*/
