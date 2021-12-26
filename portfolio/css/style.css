@@ -188,18 +188,18 @@ main
     height: 160px;
 }
 
-.flex-column-center.texto-descricao-projeto{
+.flex-column-center.conteudo-projeto{
     align-items:flex-start;
     text-align: justify;
     width: 60%;
 }
 
-.texto-descricao-projeto h2{
+.conteudo-projeto h2{
     font-size: 20px;
     padding-bottom: 15px;
 }
 
-.texto-descricao-projeto p{
+.conteudo-projeto p{
     font-size: 12px;
 }
 
@@ -209,18 +209,76 @@ main
     font-weight: 600;
 }
 
-.flex-row-center.ano-projeto{
+.ano{
     background-color: rgba(13, 0, 190, 0.616);
     color: white;
     width: 45px;
     margin-right: 15px;
     border-radius: 10px;
 }
+/*FIM PROJETOS*/
 
-.categoria-projeto{
+/*SECTION PROJETO E BLOG*/
+.categoria, .descricao{
     color: rgba(136, 136, 136, 0.575);
 }
-/*FIM PROJETOS*/
+/*FIM SECTION PROJETO E BLOG*/
+
+
+/*SECTION DE PUBLICACAO DE BLOG*/
+#titulo-blog{
+    width: 60%;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+#publicacoes-blog{
+    width: 60%;
+    border-top: none;
+}
+
+.flex-column-center.publicacao{
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.2px solid rgba(199, 199, 199, 0.705);
+}
+
+#publicacoes-blog h1{
+    font-size: 18px;
+}
+
+.flex-row-center.conteudo-publicacao{
+    padding: 10px 0 10px;
+    font-weight: 100;
+    font-size: 15px;
+    height: 25px;
+}
+
+.ano-publicacao{
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1.2px solid rgb(3, 0, 44);
+}
+
+.texto-publicacao{
+    font-size:14px;
+    text-align: justify;
+}
+
+.texto-publicacao a{
+    font-weight: 600;
+    padding-left: 10px;
+    color:rgb(3, 0, 44);
+}
+
+.categoria-publicacao{
+    color: rgba(199, 199, 199, 0.705);
+}
+/*FIM SECTION DE PUBLICACAO DO BLOG*/
+
 
 /*RODAPÉ*/
 footer{
@@ -261,8 +319,8 @@ footer p{
 }
 
 @media (max-width:768px){
-    .flex-column-center.texto-descricao-projeto{
-        width: 80%;
+    .flex-column-center.conteudo-projeto{
+        width: 90%;
     }
     #profile-text{
         align-items: center;
@@ -278,6 +336,17 @@ footer p{
     }
     footer p{
     font-size: 10px;
+    }
+
+    .flex-column-center.publicacao {
+        align-items: center;
+    }
+    #titulo-blog{
+        width: 80%;
+        text-align: center;
+    }
+    #publicacoes-blog{
+        width: 80%;
     }
 }
 /*FIM RESPONSIVIDADE*/
