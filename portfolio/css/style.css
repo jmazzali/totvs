@@ -27,6 +27,7 @@
 body
 {
     background-color: rgba(219, 219, 219, 0.151);
+    font-size: 16px;
 }
 
 /*FIM GERAL*/
@@ -48,6 +49,7 @@ nav
 }
 
 nav a{
+    font-size: 14px;
     color: rgb(3, 0, 44);
     font-weight: 600;
     text-decoration: none;
@@ -109,8 +111,8 @@ main
     padding: 30px 5% 30px 5%;
 }
 
-#level p{
-    font-size:16px;
+#titulo-linguagem{
+    text-align: center;
 }
 
 .flex-column-center.coluna-progresso{
@@ -250,9 +252,6 @@ footer p{
 }
 
 @media (max-width:920px){
-    #level p{
-        text-align: center;
-    }
     #level-conteudo{
         flex-direction: column;
     }
