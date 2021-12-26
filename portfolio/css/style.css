@@ -178,6 +178,9 @@ footer p{
     .flex-row-center.projeto{
         flex-direction: column;
     }
+    .projeto img {
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width:768px){
@@ -194,4 +197,12 @@ footer p{
     #profile{
          flex-direction: column-reverse;
    }
+
+   footer i{
+    font-size: 20px;
+    }
+
+    footer p{
+    font-size: 10px;
+    }
 }
