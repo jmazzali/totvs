@@ -219,12 +219,17 @@ main
 }
 /*FIM PROJETOS*/
 
-/*SECTION PROJETO E BLOG*/
+/*SECTION (2 arquivos) - PROJETO E BLOG*/
 .categoria, .descricao{
     color: rgba(136, 136, 136, 0.575);
 }
-/*FIM SECTION PROJETO E BLOG*/
+/*FIM SECTION0 (2 arquivos) - PROJETO E BLOG*/
 
+/*DIV BLOG*/
+#blog{
+    border-top: 2px solid rgb(3, 0, 44);
+}
+/*FIM DIV BLOG*/
 
 /*SECTION DE PUBLICACAO DE BLOG*/
 #titulo-blog{
