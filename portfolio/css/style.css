@@ -92,7 +92,7 @@ main
     margin-bottom: 15px;
 }
 
-#profile-description{
+#profile-description, #video-description{
     font-size: 15px;
     text-align: justify;
     font-weight: 100;
@@ -285,6 +285,30 @@ main
 }
 /*FIM SECTION DE PUBLICACAO DO BLOG*/
 
+/*PÁGINA DO VÍDEO*/
+#video{
+    border-top: none;
+}
+
+#video-fluig{
+    padding: 30px 15% 15px 15%;
+    align-items: flex-start;
+}
+
+#video-fluig h1{
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#video-ano{
+    background-color: red;
+}
+
+#video-description{
+    padding-top: 10px;
+}
+
 
 /*RODAPÉ*/
 footer{
@@ -353,6 +377,10 @@ footer p{
     }
     #publicacoes-blog{
         width: 80%;
+    }
+    #propriedades-video{
+        align-items: flex-start;
+        flex-direction: column;
     }
 }
 /*FIM RESPONSIVIDADE*/
