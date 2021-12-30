@@ -346,6 +346,10 @@ footer p{
     .flex-column-center.coluna-progresso{
         width: 80%;
     }
+    #video video{
+        height: 320px;
+        width: 550px;
+    }
 }
 
 @media (max-width:768px){
@@ -381,6 +385,10 @@ footer p{
     #propriedades-video{
         align-items: flex-start;
         flex-direction: column;
+    }
+    #video video{
+        height: 160px;
+        width: 300px;
     }
 }
 /*FIM RESPONSIVIDADE*/
