@@ -309,6 +309,61 @@ main
     padding-top: 10px;
 }
 
+/*FORMULÁRIO*/
+
+#cabecalho-form{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    margin: 30px 15% 30px 15%;
+    background-color: rgba(190, 190, 190, 0.267);
+}
+
+#cabecalho-form p{
+    color:rgba(100, 100, 100, 0.986);
+    padding: 18px 0 18px;
+}
+
+#section-form{
+    margin: 0 15% 0 15%;
+}
+
+#titulo-solicitante{
+    color:rgba(100, 100, 100, 0.986);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#infos-form{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px 0 20px;
+    border: 0.5px solid gray;
+}
+
+.flex-column-center.linha-input{
+    align-items: flex-start;
+    padding: 0 0 15px 15px;
+    font-size: 15px;
+}
+
+.flex-column-center.linha-input input{
+    width: 95%;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 15px;
+    border-radius: 9px;
+    border: 0.1px solid rgb(168, 168, 168);
+}
+
+form{
+    width: 100%;
+}
+
+/*FIM FORMULÁRIO*/
 
 /*RODAPÉ*/
 footer{
@@ -349,6 +404,9 @@ footer p{
     #video video{
         height: 320px;
         width: 550px;
+    }
+    #cabecalho-form{
+        font-size:26px;
     }
 }
 
