@@ -41,6 +41,7 @@ nav
     align-items: center;
     gap: 0px 40px;
     padding: 20px 10% 20px;
+    border-bottom: 1.2px solid rgb(3, 0, 44);;
 
 
     background: #d0d3d486;  /* fallback for old browsers */
@@ -60,7 +61,6 @@ nav a{
 /*SEÇÃO DE APRESENTAÇÃO*/
 main
 {
-    border-top: 2px solid rgb(3, 0, 44);
     padding: 40px 5% 40px 5%;
 }
 
@@ -225,11 +225,6 @@ main
 }
 /*FIM SECTION0 (2 arquivos) - PROJETO E BLOG*/
 
-/*DIV BLOG*/
-#blog{
-    border-top: 2px solid rgb(3, 0, 44);
-}
-/*FIM DIV BLOG*/
 
 /*SECTION DE PUBLICACAO DE BLOG*/
 #titulo-blog{
@@ -316,8 +311,8 @@ main
     font-weight: 600;
     text-align: center;
     border-radius: 5px;
-    border: 1.5px solid gray;
     margin: 30px 15% 30px 15%;
+    border: 1.5px solid gray;
     background-color: rgba(190, 190, 190, 0.267);
 }
 
