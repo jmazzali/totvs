@@ -307,7 +307,7 @@ main
 /*FORMULÁRIO*/
 
 #cabecalho-form{
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 600;
     text-align: center;
     border-radius: 5px;
@@ -317,11 +317,11 @@ main
 }
 
 #cabecalho-form p{
-    color:rgba(100, 100, 100, 0.986);
+    color:rgba(87, 87, 87, 0.986);
     padding: 18px 0 18px;
 }
 
-#section-form{
+.flex-column-center.section-form{
     margin: 0 15% 0 15%;
 }
 
@@ -329,6 +329,7 @@ main
     color:rgba(100, 100, 100, 0.986);
     font-weight: 600;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 #infos-form{
@@ -352,6 +353,16 @@ main
     padding-left: 15px;
     border-radius: 9px;
     border: 0.1px solid rgb(168, 168, 168);
+}
+
+.flex-column-center.linha-despesa{
+    color: green;
+}
+
+#infos-form i{
+    font-size: 25px;
+    color: red;
+    padding-left: 15px;
 }
 
 form{
