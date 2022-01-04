@@ -516,5 +516,8 @@ footer p{
         height: 160px;
         width: 300px;
     }
+    .flex-column-center.linha-input input{
+        width: 85%;
+    }
 }
 /*FIM RESPONSIVIDADE*/
