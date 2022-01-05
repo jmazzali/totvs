@@ -377,6 +377,10 @@ main
     justify-content: space-evenly;
 }
 
+#btn-incluir:hover{
+    background-color: rgb(154, 219, 152);
+}
+
 #btn-incluir i{
     -webkit-text-stroke: 2px white;
 }
@@ -402,6 +406,11 @@ main
     padding-left: 15px;
     border-radius: 9px;
     border: 0.1px solid rgb(168, 168, 168);
+}
+
+.flex-column-center.linha-input input:focus{
+    font-weight: 100;
+    background-color: lavender;
 }
 
 #infos-form i{
@@ -518,6 +527,9 @@ footer p{
     }
     .flex-column-center.linha-input input{
         width: 85%;
+    }
+    #btn-incluir {
+        font-size:14px;
     }
 }
 /*FIM RESPONSIVIDADE*/
