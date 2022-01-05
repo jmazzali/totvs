@@ -76,7 +76,7 @@ main
     flex-direction:column;
 }
 
-#profile-text button{
+#btn-download{
     width: 105px;
     height: 45px;
     font-size: 15px;
@@ -85,6 +85,10 @@ main
     cursor:pointer;
     color: white;
     background-color: rgba(136, 136, 136, 0.692);
+}
+
+#btn-download:hover{
+    background-color: rgba(136, 136, 136, 0.329);
 }
 
 #profile-name{
@@ -379,6 +383,7 @@ main
 
 #btn-incluir:hover{
     background-color: rgb(154, 219, 152);
+    cursor: pointer;
 }
 
 #btn-incluir i{
