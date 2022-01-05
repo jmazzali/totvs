@@ -61,7 +61,7 @@ nav a{
 /*SEÇÃO DE APRESENTAÇÃO*/
 main
 {
-    padding: 40px 5% 40px 5%;
+    padding: 120px 12% 80px 12%;
 }
 
 #profile{
@@ -77,14 +77,14 @@ main
 }
 
 #btn-download{
-    width: 105px;
-    height: 45px;
-    font-size: 15px;
-    border-radius: 2%;
     border:none;
+    width: 200px;
+    height: 45px;
     cursor:pointer;
     color: white;
-    background-color: rgba(136, 136, 136, 0.692);
+    font-size: 16px;
+    border-radius: 2%;
+    background-color: rgba(136, 136, 136, 0.877);
 }
 
 #btn-download:hover{
@@ -92,7 +92,8 @@ main
 }
 
 #profile-name{
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -104,9 +105,14 @@ main
 }
 
 #profile img{
-    height:120px;
-    width:120px;
+    width:200px;
+    height:200px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 8px solid gainsboro;
+    border-left-color: rgba(220, 220, 220, 0.856);
+    border-right-color: rgba(220, 220, 220, 0.87);
+    border-bottom-color: rgba(220, 220, 220, 0.733);
 }
 /*FIM SEÇÃO DE APRESENTAÇÃO*/
 
@@ -501,6 +507,9 @@ footer p{
     }
     #btn-incluir {
         width: 30%;
+    }
+    #divisor-colunas{
+        display: none;
     }
 }
 
