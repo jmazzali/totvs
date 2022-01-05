@@ -326,21 +326,26 @@ main
 /*PÁGINA DO VÍDEO*/
 #video{
     border-top: none;
+    padding: 30px 12% 30px 12%;
 }
 
 #video-fluig{
-    padding: 30px 15% 15px 15%;
+    padding: 30px 22% 15px 22%;
     align-items: flex-start;
 }
 
 #video-fluig h1{
     width: 100%;
-    font-size: 25px;
+    font-size: 42px;
     margin-bottom: 10px;
 }
 
 #video-ano{
     background-color: red;
+}
+
+#categoria-video{
+    color: black;
 }
 
 #video-description{
