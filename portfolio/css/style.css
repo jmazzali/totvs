@@ -194,21 +194,24 @@ main
 }
 
 #titulo-projetos{
-    font-size:14px;
-    padding-right: 50%;
+    width: 70%;
+    font-size:18px;
+    text-align: left;
+    color:rgb(4, 0, 63);
 }
 
 .flex-row-center.projeto{
-    justify-content: space-around;
     width: 70%;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1.2px solid rgb(3, 0, 44);
+    justify-content: space-around;
+    border-bottom: 0.8px solid rgba(192, 192, 192, 0.74);
 }
 
 .projeto img{
-    width: 300px;
+    width: 250px;
     height: 160px;
+    border-radius: 5px;
 }
 
 .flex-column-center.conteudo-projeto{
@@ -218,12 +221,12 @@ main
 }
 
 .conteudo-projeto h2{
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 15px;
 }
 
 .conteudo-projeto p{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .flex-row-center.ano-categoria{
@@ -233,17 +236,18 @@ main
 }
 
 .ano{
-    background-color: rgba(13, 0, 190, 0.616);
-    color: white;
     width: 45px;
+    color: white;
     margin-right: 15px;
     border-radius: 10px;
+    background-color: rgba(0, 14, 90, 0.979);
 }
 /*FIM PROJETOS*/
 
 /*SECTION (2 arquivos) - PROJETO E BLOG*/
 .categoria, .descricao{
     color: rgba(136, 136, 136, 0.575);
+    font-weight: 100;
 }
 /*FIM SECTION0 (2 arquivos) - PROJETO E BLOG*/
 
@@ -252,13 +256,14 @@ main
 #titulo-blog{
     width: 60%;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 42px;
     padding-top: 30px;
 }
 
 #publicacoes-blog{
     width: 60%;
     border-top: none;
+    padding: 30px 12% 50px 12%;
 }
 
 .flex-column-center.publicacao{
@@ -477,6 +482,9 @@ footer p{
     }
     #btn-incluir{
         font-size: 17px;
+    }
+    #titulo-projetos{
+        text-align: center;
     }
 }
 
