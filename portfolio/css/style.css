@@ -12,15 +12,15 @@
 
 .flex-row-center{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
     justify-content: center;
 }
 
 .flex-column-center{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -33,29 +33,7 @@ body
 /*FIM GERAL*/
 
 /*MENU NAVEGAÇÃO*/
-nav
-{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 0px 40px;
-    padding: 20px 10% 20px;
-    border-bottom: 1.2px solid rgb(3, 0, 44);;
 
-
-    background: #d0d3d486;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #d0d3d486, #56585a6c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #d0d3d486, #56585a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-nav a{
-    padding: 15px;
-    font-size: 14px;
-    color: rgb(3, 0, 44);
-    font-weight: 600;
-    text-decoration: none;
-}
 /*FIM MENU NAVEGAÇÃO*/
 
 /*SEÇÃO DE APRESENTAÇÃO*/
@@ -123,10 +101,10 @@ main
 }
 
 #titulo-linguagem{
-    font-weight: 600;
-    margin-bottom: 15px;
     font-size: 25px;
+    font-weight: 600;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .flex-column-center.coluna-progresso{
@@ -136,8 +114,8 @@ main
 
 .titulo-linguagens{
     color: rgba(34, 78, 107, 0.678);
-    width: 120px;
     padding-right: 5%;
+    width: 120px;
 }
 
 .flex-row-center.linguagem-linha{
@@ -255,8 +233,8 @@ main
 /*SECTION DE PUBLICACAO DE BLOG*/
 #titulo-blog{
     width: 60%;
-    font-weight: 600;
     font-size: 42px;
+    font-weight: 600;
     padding-top: 30px;
 }
 
@@ -268,9 +246,9 @@ main
 
 .flex-column-center.publicacao{
     width: 100%;
-    align-items: flex-start;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    align-items: flex-start;
     border-bottom: 1.2px solid rgba(199, 199, 199, 0.705);
 }
 
@@ -374,10 +352,10 @@ main
 }
 
 .flex-row-center.depesas-incluir{
+    gap: 50px;
     width: 100%;
     margin-bottom: 10px;
     justify-content: flex-end;
-    gap: 50px;
 }
 
 #w-25-vazio{
@@ -386,11 +364,11 @@ main
 }
 
 #titulo-solicitante{
-    color:rgba(100, 100, 100, 0.986);
-    font-weight: 600;
-    font-size: 25px;
     width: 50%;
+    font-size: 25px;
+    font-weight: 600;
     text-align: center;
+    color:rgba(100, 100, 100, 0.986);
 }
 
 #div-btn-incluir{
@@ -400,13 +378,13 @@ main
 
 #btn-incluir{
     width: 60%;
-    border-radius: 7px;
-    background-color: rgb(115, 172, 114);
-    font-size: 20px;
-    color: white;
-    font-weight: 600;
     border:none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
     justify-content: space-evenly;
+    background-color: rgb(115, 172, 114);
 }
 
 #btn-incluir:hover{
@@ -424,6 +402,13 @@ main
     margin-bottom: 30px;
     padding: 20px 0 20px;
     border: 0.5px solid gray;
+}
+
+#infos-form i{
+    display: none;
+    color: red;
+    font-size: 25px;
+    padding-left: 15px;
 }
 
 .flex-column-center.linha-input{
@@ -446,12 +431,6 @@ main
     background-color: lavender;
 }
 
-#infos-form i{
-    font-size: 25px;
-    color: red;
-    padding-left: 15px;
-}
-
 form{
     width: 100%;
 }
@@ -465,10 +444,10 @@ footer{
 }
 
 footer i{
-    color: rgb(3, 0, 44);
     font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    color: rgb(3, 0, 44);
 }
 
 footer p{
@@ -538,14 +517,17 @@ footer p{
     }
     #profile{
          flex-direction: column-reverse;
-   }
+         padding-top: 50px
+    }
+    #profile-name {
+        font-size: 25px;
+    }
    footer i{
     font-size: 20px;
     }
     footer p{
     font-size: 10px;
     }
-
     .flex-column-center.publicacao {
         align-items: center;
     }
