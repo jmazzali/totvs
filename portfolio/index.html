@@ -8,18 +8,28 @@
 </head>
 <body>
 
-    <!-- FAIXA DE CORES -->
-    <nav><!--MENU DE NAVEGAÇÃO - HOME | FORMULÁRIO | FLUIG | BLOG -->
-    <a title="Página Home" href="#">Home</a>
-    <a title="Página do Formulário" href="./pages/formulario.html">Formulário</a>
-    <a title="Página do Fluig" href="./pages/fluig.html">Fluig</a>
-    <a title="Blog" href="./pages/blog.html">Blog</a>
-    </nav>
+    <header>
+        <div id="menu">
+            <div id="menu-mobile" class="flex-column-center">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
 
+            <nav id="menu-desktop" class="flex-row-center">
+                <ul id="nav-ul" class="flex-row-center">
+                    <li class="nav-li"><a class="nav-a" title="Página Home" href="#">Home</a></li>
+                    <li class="nav-li"><a class="nav-a" title="Página do Formulário" href="./pages/formulario.html">Formulário</a></li>
+                    <li class="nav-li"><a class="nav-a" title="Página do Fluig" href="./pages/fluig.html">Fluig</a></li>
+                    <li class="nav-li"><a class="nav-a" title="Blog" href="./pages/blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
 
 
     <main id="profile" class="flex-row-center" >
-    <!--SEÇÃO DE APRESENTAÇÃO ou usar HEADER-->
             <div id="profile-text">
                 <h1 id="profile-name">João V. Mazzali dos Santos</h1>
                 <h2 id="profile-description">Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim consectetur ultrices. Vestibulum a ipsum et ante fermentum lobortis. Sed ornare interdum sapien sed condimentum.</h2>
@@ -31,7 +41,6 @@
     </main>
 
         <section id="level">
-        <!-- DESTINADO PARA NÍVEL DE HABILIDADES -->
         <p id="titulo-linguagem">Linguagens</p>
 
         <div id="level-conteudo" class="flex-row-center">
@@ -86,7 +95,6 @@
         </section>
 
         <section id="principais-projetos" class="flex-column-center">
-        <!-- AGORA PARA APRESENTAÇÃO DE PROJETOS -->
         <p id="titulo-projetos">Trabalhos em destaque</p>
 
             <div class="flex-row-center projeto"> 
@@ -127,7 +135,7 @@
         </section>
 
 
-    <footer class="flex-column-center"><!-- MEDIA SOCIAL -->
+    <footer class="flex-column-center">
         <div class="flex-row-center">
             <a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
