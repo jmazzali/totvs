@@ -7,12 +7,25 @@
     <title>Blog</title>
 </head>
 <body>
-    <nav>
-        <a title="Página Home" href="../index.html">Home</a>
-        <a title="Página do Formulário" href="./formulario.html">Formulário</a>
-        <a title="Página do Fluig" href="./fluig.html">Fluig</a>
-        <a title="Blog" href="#">Blog</a>
-    </nav>
+    <header>
+        <div class="menu">
+            <div id="menu-mobile" class="flex-column-center">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+
+            <nav id="menu-desktop" class="flex-row-center">
+                <ul id="nav-ul" class="flex-row-center">
+                    <li class="nav-li"><a class="nav-a" title="Página Home" href="../index.html">Home</a></li>
+                    <li class="nav-li"><a class="nav-a" title="Página do Formulário" href="./formulario.html">Formulário</a></li>
+                    <li class="nav-li"><a class="nav-a" title="Página do Fluig" href="./fluig.html">Fluig</a></li>
+                    <li class="nav-li"><a class="nav-a" title="Blog" href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
 
     <div id="blog" class="flex-column-center">
         <p id="titulo-blog">Blog</p>
@@ -113,5 +126,7 @@
         </div>
         <p>Copyright©2021. Todos os direitos reservados</p>
     </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
