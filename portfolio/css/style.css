@@ -34,6 +34,12 @@ body
 
 /*MENU NAVEGAÇÃO*/
 
+header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
 .menu{
     padding: 15px 30px 10px;
 
@@ -261,7 +267,7 @@ main
     width: 60%;
     font-size: 42px;
     font-weight: 600;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 #publicacoes-blog{
@@ -334,7 +340,7 @@ main
 }
 
 #video-fluig{
-    padding: 30px 22% 15px 22%;
+    padding: 80px 20% 15px 20%;
     align-items: flex-start;
 }
 
@@ -363,7 +369,7 @@ main
     font-weight: 600;
     text-align: center;
     border-radius: 5px;
-    margin: 30px 15% 30px 15%;
+    margin: 80px 15% 30px 15%;
     border: 1.5px solid gray;
     background-color: rgba(190, 190, 190, 0.267);
 }
