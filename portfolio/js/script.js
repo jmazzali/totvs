@@ -14,7 +14,7 @@ const incluir = document.getElementById("btn-incluir")
 
 incluir.addEventListener("click", () =>{
     var node = document.createElement("div");
-    node.classList.add("obj")
+    node.classList.add("obj", "flex-row-center")
 
     var textnode = document.createTextNode("");
     node.appendChild(textnode);
