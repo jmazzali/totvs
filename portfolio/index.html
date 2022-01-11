@@ -17,6 +17,12 @@
             </div>
 
             <nav id="menu-desktop" class="flex-row-center">
+                <div id="div-btn-darktheme">
+                    <button id="btn-darktheme" onclick="changeBC()">
+                        <i class="bi bi-lightbulb-fill"></i>
+                    </button>
+                </div>
+
                 <ul id="nav-ul" class="flex-row-center">
                     <li class="nav-li"><a class="nav-a" title="Página Home" href="#">Home</a></li>
                     <li class="nav-li"><a class="nav-a" title="Página do Formulário" href="./pages/formulario.html">Formulário</a></li>
@@ -29,36 +35,36 @@
     </header>
 
 
-    <main id="profile" class="flex-row-center" >
+    <main class="flex-row-center profile fontdefault">
             <div id="profile-text">
                 <h1 id="profile-name">João V. Mazzali dos Santos</h1>
                 <h2 id="profile-description">Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim consectetur ultrices. Vestibulum a ipsum et ante fermentum lobortis. Sed ornare interdum sapien sed condimentum.</h2>
                 <button id="btn-download">Download</button>
             </div>
     
-        <img src="./img/profile-img-provisoria.jpg" alt="Foto de perfil">
+        <img id="profile-img" src="./img/profile-img-provisoria.jpg" alt="Foto de perfil">
 
     </main>
 
         <section id="level">
-        <p id="titulo-linguagem">KNOWLEDGE - Linguagens</p>
+        <p id="titulo-linguagem" class="fontdefault">KNOWLEDGE - Linguagens</p>
 
         <div id="level-conteudo" class="flex-row-center">
             <div class="flex-column-center coluna-progresso">
                 <div class="flex-row-center linguagem-linha">
-                    <p class="titulo-linguagens">HTML</p>
+                    <p class="titulo-linguagens fontdefault">HTML</p>
                     <div class="barra-linguagem">
                         <div class="progresso intermediario"></div>
                     </div>
                 </div>
                 <div class="flex-row-center linguagem-linha">
-                    <p class="titulo-linguagens">CSS</p>
+                    <p class="titulo-linguagens fontdefault">CSS</p>
                     <div class="barra-linguagem">
                         <div class="progresso basico"></div>
                     </div>
                 </div>
                 <div class="flex-row-center linguagem-linha">
-                    <p class="titulo-linguagens">Fluig</p>
+                    <p class="titulo-linguagens fontdefault">Fluig</p>
                     <div class="barra-linguagem">
                         <div class="progresso iniciante"></div>
                     </div>
@@ -71,19 +77,19 @@
 
             <div class="flex-column-center coluna-progresso">
                 <div class="flex-row-center linguagem-linha">
-                    <p class="titulo-linguagens">JS</p>
+                    <p class="titulo-linguagens fontdefault">JS</p>
                     <div class="barra-linguagem">
                         <div class="progresso iniciante"></div>
                     </div>
                 </div>
                 <div class="flex-row-center linguagem-linha">
-                    <p class="titulo-linguagens">Git</p>
+                    <p class="titulo-linguagens fontdefault">Git</p>
                     <div class="barra-linguagem">
                         <div class="progresso basico"></div>
                     </div>
                 </div>
                 <div class="flex-row-center linguagem-linha">
-                    <p class="titulo-linguagens">Outra</p>
+                    <p class="titulo-linguagens fontdefault">Outra</p>
                     <div class="barra-linguagem">
                         <div class="progresso avancado"></div>
                     </div>
@@ -94,8 +100,8 @@
        
         </section>
 
-        <section id="principais-projetos" class="flex-column-center">
-        <p id="titulo-projetos">Trabalhos em destaque</p>
+        <section id="principais-projetos" class="flex-column-center fontdefault">
+        <p id="titulo-projetos" class="fontdefault">Trabalhos em destaque</p>
 
             <div class="flex-row-center projeto"> 
                 <img src="./img/profile-img-provisoria.jpg" alt="Imagem do projeto">
@@ -135,14 +141,14 @@
         </section>
 
 
-    <footer class="flex-column-center">
+    <footer class="flex-column-center fontdefault">
         <div class="flex-row-center">
-            <a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="#" title="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/jmazzali/totvs" title="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="#" title="Facebook" target="_blank"><i class="bi bi-facebook fontdefault"></i></a>
+            <a href="#" title="Instagram" target="_blank"><i class="bi bi-instagram fontdefault"></i></a>
+            <a href="#" title="LinkedIn" target="_blank"><i class="bi bi-linkedin fontdefault"></i></a>
+            <a href="https://github.com/jmazzali/totvs" title="GitHub" target="_blank"><i class="bi bi-github fontdefault"></i></a>
         </div>
-        <p>Copyright©2021. Todos os direitos reservados</p>
+        <p class="fontdefault">Copyright©2021. Todos os direitos reservados</p>
     </footer>
     
     <script src="js/script.js"></script>
