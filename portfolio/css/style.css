@@ -73,6 +73,14 @@ header{
 #btn-darktheme{
     width: 50%;
     font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#btn-darktheme:hover{
+    background-color: rgb(186, 199, 240);
 }
 
 /*FIM MENU NAVEGAÇÃO*/
