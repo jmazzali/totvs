@@ -44,12 +44,18 @@ header{
     top: 0;
 }
 
-.menu{
+#menu{
     padding: 15px 30px 10px;
+}
 
+#menu.default{
     background: rgba(163, 172, 177, 0.575);  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, rgba(163, 172, 177, 0.575), rgba(142, 148, 153, 0.938));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, rgb(204 212 217), rgb(142 148 153)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#menu.dark{
+    background-color: rgba(220, 220, 220, 0.288);
 }
 
 #nav-ul{
@@ -616,30 +622,31 @@ footer p{
     #menu-desktop{
         display: none;
     }
-    .menu.on #menu-desktop, #nav-ul{
+    
+    #menu.on #menu-desktop, #nav-ul{
         display:block;
         width: auto;
     }
-    .menu.on .nav-li{
+    #menu.on .nav-li{
         font-weight: 600;
         margin-bottom: 20px;
     }
-    .menu.on .nav-a{
+    #menu.on .nav-a{
         color:white;
     }
     
-    .menu.on{
+    #menu.on{
         z-index: 5;
         height: 40vh;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        background-color: rgba(65, 167, 235, 0.575);
+        background-color: rgb(7 34 52 / 98%);
     }
-    .menu #menu-mobile{
+    #menu #menu-mobile{
         align-items: flex-end;
     }
-    .menu.on #menu-mobile{
+    #menu.on #menu-mobile{
         width: 30%;
         height: 50px;
         display: flex;
