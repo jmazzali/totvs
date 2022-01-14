@@ -1,7 +1,7 @@
 /*ATIVANDO MENU MOBILE EXPANDIDO*/
 let show = true
 
-const menu = document.querySelector(".menu")
+const menu = document.querySelector("#menu")
 const menuMobile = menu.querySelector("#menu-mobile")
 
 menuMobile.addEventListener("click", () => {
@@ -13,11 +13,14 @@ menuMobile.addEventListener("click", () => {
 var body = document.querySelector("body")
 var sectionLevel = document.getElementById("level")
 var classFont = document.getElementsByClassName("fontdefault")
+var menuNav = document.getElementById("menu")
 
 var themeA = 0
 
 function changeBC(){
     if(themeA === 0){
+        menuNav.classList.add('dark')
+        menuNav.classList.remove('default')
         body.style.backgroundColor = 'black';
         sectionLevel.style.backgroundColor = 'rgb(129 129 129 / 37%)';
 
@@ -26,6 +29,8 @@ function changeBC(){
         }
         themeA = 1
     } else{
+        menuNav.classList.remove('dark')
+        menuNav.classList.add('default')
         body.style.backgroundColor = 'white';
         sectionLevel.style.backgroundColor = 'rgba(223, 223, 223, 0.493)';
 
